@@ -1,0 +1,53 @@
+name: mi_card_flutter
+description: A new Flutter project.
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: Source-Sans-3
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+        - asset: fonts/SourceSans3-ExtraLight.ttf
+        - asset: fonts/SourceSans3-Light.ttf
+        - asset: fonts/SourceSans3-Regular.ttf
+        - asset: fonts/SourceSans3-Medium.ttf
+        - asset: fonts/SourceSans3-SemiBold.ttf
+        - asset: fonts/SourceSans3-Bold.ttf
+        - asset: fonts/SourceSans3-ExtraBold.ttf
+        - asset: fonts/SourceSans3-Black.ttf
+        - asset: fonts/SourceSans3-ExtraLightItalic.ttf
+        - asset: fonts/SourceSans3-LightItalic.ttf
+        - asset: fonts/SourceSans3-Italic.ttf
+        - asset: fonts/SourceSans3-MediumItalic.ttf
+        - asset: fonts/SourceSans3-SemiBoldItalic.ttf
+        - asset: fonts/SourceSans3-BoldItalic.ttf
+        - asset: fonts/SourceSans3-ExtraBoldItalic.ttf
+        - asset: fonts/SourceSans3-BlackItalic.ttf
+
+  uses-material-design: true
+
+
+  assets:
+    - images/siva.png
+
